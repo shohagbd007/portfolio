@@ -1,0 +1,250 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.carousel-caption h2 {
+  font-size: 34px;
+}
+.carousel-caption p {
+  font-size: 14px;
+}
+.footer-social li a {
+  padding: 0 8px;
+}
+.tagcloud li a {
+  font-size: 13px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.container {
+  min-width: 768px;
+  max-width: 100%;
+}
+.col-custom-12{
+  max-width: 100%;
+  flex: 100%;
+}
+.headertop-left-content{
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.top-social-icons{
+  text-align: center !important;
+  border-bottom: 1px solid #ebebeb;
+}
+.header-top-area {
+  border-bottom: none;
+}
+.carousel-caption h2 {
+  font-size: 26px;
+}
+.carousel-caption p {
+  font-size: 13px;
+}
+.carousel-btn {
+  padding: 5px 25px;
+  font-size: 14px;
+}
+.carousel-indicators li {
+  height: 5px;
+}
+.carousel-indicators li.active {
+  height: 5px;
+}
+.feature-left-item i {
+  font-size: 25px;
+  padding: 18px;
+}
+.course-text-content h4 {
+  font-size: 16px;
+}
+.course-text-content p {
+  font-size: 14px;
+}
+.review-content p {
+  font-size: 16px;
+}
+.footer-social li a {
+  padding: 0 10px 10px;
+}
+}
+/* Small Devices Layout */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+.container {
+  min-width: 576px;
+  max-width: 100%;
+}
+.col-custom-12{
+  max-width: 100%;
+  flex: 100%;
+}
+.col-custom-6, .col-footer-6{
+  max-width: 50%;
+  flex: 50%;
+}
+.headertop-left-content{
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.top-social-icons{
+  text-align: center !important;
+  border-bottom: 1px solid #ebebeb;
+}
+.header-top-area {
+  border-bottom: none;
+}
+.carousel-caption h2 {
+  font-size: 20px;
+}
+.carousel-caption p {
+  font-size: 13px;
+}
+.carousel-btn {
+  padding: 3px 20px;
+  font-size: 14px;
+}
+.carousel-indicators li {
+  height: 5px;
+}
+.carousel-indicators li.active {
+  height: 5px;
+}
+.feature-left-item i {
+  font-size: 25px;
+  padding: 20px;
+}
+.review-content p {
+  font-size: 16px;
+}
+.copyright-right-content{
+  float: none;
+}
+.copyright-left-content, .copyright-right-content {
+  text-align: center;
+  padding: 6px 0;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+.col-footer-6{
+  max-width: 50%;
+  flex: 50%;
+}
+.headertop-left-content{
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.top-social-icons{
+  text-align: center !important;
+  border-bottom: 1px solid #ebebeb;
+}
+.header-top-area {
+  border-bottom: none;
+}
+.carousel-caption h2 {
+  font-size: 25px;
+}
+.carousel-caption p {
+  font-size: 13px;
+  max-width: 300px;
+}
+.carousel-btn {
+  padding: 3px 20px;
+  font-size: 14px;
+}
+.carousel-indicators li {
+  height: 5px;
+}
+.carousel-indicators li.active {
+  height: 5px;
+}
+.feature-left-item i {
+  font-size: 25px;
+  padding: 20px;
+}
+.review-content p {
+  font-size: 16px;
+}
+.copyright-right-content{
+  float: none;
+}
+.copyright-left-content, .copyright-right-content {
+  text-align: center;
+  padding: 6px 0;
+}
+.course-text-content h4 {
+  font-size: 18px;
+}
+.carousel-caption{
+  min-width: 385px;
+}
+.carousel-item, .carousel-item img{
+  min-height: 350px;
+}
+}
+/* Small Mobile Layout: 320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px){
+.headertop-left-content{
+  text-align: center;
+  border-bottom: none;
+}
+.top-social-icons{
+  text-align: center !important;
+  border-bottom: none;
+}
+.header-top-area ul li:first-child {
+  border-left: none;
+}
+.header-top-area ul li {
+  border: 1px solid #ebebeb !important;
+  margin: 5px;
+}
+.carousel-caption {
+  min-width: 255px !important;
+}
+.carousel-item, .carousel-item img{
+  min-height: 350px;
+}
+.carousel-caption h2 {
+  font-size: 17px;
+}
+.carousel-caption p {
+  font-size: 13px;
+  max-width: 235px !important;
+}
+.carousel-btn {
+  padding: 3px 20px;
+  font-size: 14px;
+}
+.carousel-indicators li {
+  height: 5px;
+}
+.carousel-indicators li.active {
+  height: 5px;
+}
+.feature-left-item i {
+  font-size: 25px;
+  padding: 20px;
+}
+.review-content p {
+  font-size: 14px;
+}
+.section-para {
+  font-size: 15px;
+}
+.copyright-right-content{
+  float: none;
+}
+.copyright-left-content, .copyright-right-content {
+  text-align: center;
+  padding: 6px 0;
+}
+.course-text-content h4 {
+  font-size: 18px;
+}
+.carousel-caption{
+  min-width: 385px;
+}
+.carousel-item, .carousel-item img{
+  min-height: 350px;
+}
+}
